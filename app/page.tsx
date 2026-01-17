@@ -22,7 +22,7 @@ export default function HomePage() {
       <main className="flex-1">
         {/* Hero Section */}
         <section className="relative overflow-hidden bg-primary py-20 md:py-32">
-          <div className="absolute inset-0 bg-[url('/aerial-view-of-beautiful-university-campus-with-gr.jpg')] bg-cover bg-center opacity-20" />
+          <div className="absolute inset-0 bg-[url('/university.jpg')] bg-cover bg-center opacity-20" />
           <div className="container relative mx-auto px-4">
             <div className="mx-auto max-w-3xl text-center">
               <h1 className="font-serif text-4xl font-bold tracking-tight text-primary-foreground md:text-5xl lg:text-6xl text-balance">
@@ -94,7 +94,7 @@ export default function HomePage() {
                 </Button>
               </div>
               <div className="relative aspect-video overflow-hidden rounded-xl shadow-lg">
-                <Image src="/university-campus-with-students-walking-and-modern.jpg" alt="UWU Campus" fill className="object-cover" />
+                <Image src="/uvaWellassaUniversity.jpg" alt="UWU Campus" fill className="object-cover" />
               </div>
             </div>
           </div>

@@ -29,7 +29,6 @@ export function Navigation() {
             </div>
             <div className="hidden sm:block">
               <span className="font-serif text-lg font-bold text-primary">UWU</span>
-              <span className="ml-1 text-sm text-muted-foreground">Sri Lanka</span>
             </div>
           </Link>
 

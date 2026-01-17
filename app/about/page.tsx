@@ -75,7 +75,7 @@ export default function AboutPage() {
       <main className="flex-1">
         {/* Hero Section */}
         <section className="relative overflow-hidden bg-primary py-16 md:py-24">
-          <div className="absolute inset-0 bg-[url('/historic-university-building-architecture.jpg')] bg-cover bg-center opacity-20" />
+          <div className="absolute inset-0 bg-[url('/aboutHead.jpg')] bg-cover bg-center opacity-20" />
           <div className="container relative mx-auto px-4">
             <div className="mx-auto max-w-3xl text-center">
               <h1 className="font-serif text-4xl font-bold tracking-tight text-primary-foreground md:text-5xl text-balance">
@@ -93,7 +93,7 @@ export default function AboutPage() {
           <div className="container mx-auto px-4">
             <div className="grid items-center gap-12 lg:grid-cols-2">
               <div className="relative aspect-video overflow-hidden rounded-xl shadow-lg">
-                <Image src="/university-main-administration-building-with-stude.jpg" alt="UWU Main Building" fill className="object-cover" />
+                <Image src="/university.jpg" alt="UWU Main Building" fill className="object-cover" />
               </div>
               <div>
                 <h2 className="font-serif text-3xl font-bold text-foreground md:text-4xl text-balance">Our Story</h2>
