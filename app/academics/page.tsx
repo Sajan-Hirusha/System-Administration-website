@@ -153,7 +153,7 @@ function AcademicsContent() {
       <main className="flex-1">
         {/* Hero Section */}
         <section className="relative overflow-hidden bg-primary py-12 md:py-16">
-          <div className="absolute inset-0 bg-[url('/university-library-modern-architecture.jpg')] bg-cover bg-center opacity-20" />
+          <div className="absolute inset-0 bg-[url('/contacthero.jpg')] bg-cover bg-center opacity-20" />
           <div className="container relative mx-auto px-4">
             <div className="mx-auto max-w-3xl text-center">
               <h1 className="font-serif text-3xl font-bold tracking-tight text-primary-foreground md:text-4xl lg:text-5xl text-balance">

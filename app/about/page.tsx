@@ -237,51 +237,51 @@ export default function AboutPage() {
         </section>
 
         {/* Leadership */}
-        <section className="bg-muted/30 py-16 md:py-24">
-          <div className="container mx-auto px-4">
-            <div className="mx-auto max-w-2xl text-center">
-              <h2 className="font-serif text-3xl font-bold text-foreground md:text-4xl">University Leadership</h2>
-              <p className="mt-4 text-muted-foreground">Guided by experienced academics and administrators</p>
-            </div>
-            <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {[
-                {
-                  name: "Prof. Jayantha Lal Ratnasekera",
-                  title: "Vice Chancellor",
-                  image: "professional academic man in formal attire portrait",
-                },
-                {
-                  name: "Prof. Samantha Perera",
-                  title: "Deputy Vice Chancellor",
-                  image: "professional academic woman in formal attire portrait",
-                },
-                {
-                  name: "Mr. Dinesh Kumara",
-                  title: "Registrar",
-                  image: "professional administrator man in suit portrait",
-                },
-              ].map((leader) => (
-                <Card key={leader.name} className="text-center">
-                  <CardHeader>
-                    <div className="mx-auto mb-4 h-24 w-24 overflow-hidden rounded-full">
-                      <Image
-                        src={`/.jpg?height=96&width=96&query=${leader.image}`}
-                        alt={leader.name}
-                        width={96}
-                        height={96}
-                        className="object-cover"
-                      />
-                    </div>
-                    <CardTitle className="text-lg">{leader.name}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-sm text-muted-foreground">{leader.title}</p>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </section>
+        {/*<section className="bg-muted/30 py-16 md:py-24">*/}
+        {/*  <div className="container mx-auto px-4">*/}
+        {/*    <div className="mx-auto max-w-2xl text-center">*/}
+        {/*      <h2 className="font-serif text-3xl font-bold text-foreground md:text-4xl">University Leadership</h2>*/}
+        {/*      <p className="mt-4 text-muted-foreground">Guided by experienced academics and administrators</p>*/}
+        {/*    </div>*/}
+        {/*    <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">*/}
+        {/*      {[*/}
+        {/*        {*/}
+        {/*          name: "Prof. Jayantha Lal Ratnasekera",*/}
+        {/*          title: "Vice Chancellor",*/}
+        {/*          image: "professional academic man in formal attire portrait",*/}
+        {/*        },*/}
+        {/*        {*/}
+        {/*          name: "Prof. Samantha Perera",*/}
+        {/*          title: "Deputy Vice Chancellor",*/}
+        {/*          image: "professional academic woman in formal attire portrait",*/}
+        {/*        },*/}
+        {/*        {*/}
+        {/*          name: "Mr. Dinesh Kumara",*/}
+        {/*          title: "Registrar",*/}
+        {/*          image: "professional administrator man in suit portrait",*/}
+        {/*        },*/}
+        {/*      ].map((leader) => (*/}
+        {/*        <Card key={leader.name} className="text-center">*/}
+        {/*          <CardHeader>*/}
+        {/*            <div className="mx-auto mb-4 h-24 w-24 overflow-hidden rounded-full">*/}
+        {/*              <Image*/}
+        {/*                src={`/.jpg?height=96&width=96&query=${leader.image}`}*/}
+        {/*                alt={leader.name}*/}
+        {/*                width={96}*/}
+        {/*                height={96}*/}
+        {/*                className="object-cover"*/}
+        {/*              />*/}
+        {/*            </div>*/}
+        {/*            <CardTitle className="text-lg">{leader.name}</CardTitle>*/}
+        {/*          </CardHeader>*/}
+        {/*          <CardContent>*/}
+        {/*            <p className="text-sm text-muted-foreground">{leader.title}</p>*/}
+        {/*          </CardContent>*/}
+        {/*        </Card>*/}
+        {/*      ))}*/}
+        {/*    </div>*/}
+        {/*  </div>*/}
+        {/*</section>*/}
       </main>
 
       <Footer />

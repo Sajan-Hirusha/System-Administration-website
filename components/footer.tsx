@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { GraduationCap, Mail, Phone, MapPin } from "lucide-react"
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -9,12 +10,16 @@ export function Footer() {
           {/* Logo & Description */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-                <GraduationCap className="h-6 w-6 text-primary-foreground" />
+              <div className="flex h-15 w-15 items-center justify-center">
+                <Image
+                    src="/unilogo.png"
+                    alt="University Logo"
+                    width={100}
+                    height={100}
+                    className="h-20 w-20 object-contain"
+                />
               </div>
-              <div>
-                <span className="font-serif text-lg font-bold text-primary">Uva Wellassa University</span>
-              </div>
+
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
               A premier national university committed to excellence in education, research, and community service in Sri

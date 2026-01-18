@@ -41,7 +41,7 @@ export const universityData: Faculty[] = [
       "The Faculty of Science & Technology is dedicated to advancing scientific knowledge and technological innovation. Our programs combine theoretical foundations with hands-on practical experience, preparing students for careers in research, industry, and academia.",
     dean: "Prof. Samantha Perera",
     established: "2007",
-    image: "/modern-university-science-building-with-laboratori.jpg",
+    image: "/faculty.jpg",
     departments: [
       {
         id: "cs",
@@ -202,7 +202,7 @@ export const universityData: Faculty[] = [
       "The Faculty of Management prepares future business leaders with skills in entrepreneurship, finance, marketing, and strategic management. Our programs emphasize ethical leadership and sustainable business practices.",
     dean: "Prof. Anura Bandara",
     established: "2009",
-    image: "/modern-business-school-building-university-campus.jpg",
+    image: "/faculty.jpg",
     departments: [
       {
         id: "bm",
@@ -322,7 +322,7 @@ export const universityData: Faculty[] = [
       "The Faculty of Animal Science & Export Agriculture focuses on agricultural innovation, animal husbandry, and sustainable farming practices. Our programs support Sri Lanka's agricultural sector and food security.",
     dean: "Prof. Chandra Wickramasinghe",
     established: "2007",
-    image: "/agricultural-university-farm-with-modern-facilitie.jpg",
+    image: "/faculty.jpg",
     departments: [
       {
         id: "as",
@@ -409,7 +409,7 @@ export const universityData: Faculty[] = [
       "The Faculty of Applied Sciences bridges theoretical knowledge with practical applications in emerging fields like renewable energy, environmental science, and industrial technology.",
     dean: "Prof. Dinesh Amaratunga",
     established: "2011",
-    image: "/modern-applied-sciences-laboratory-research-facili.jpg",
+    image: "/faculty.jpg",
     departments: [
       {
         id: "env",
