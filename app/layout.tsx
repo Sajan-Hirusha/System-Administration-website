@@ -14,19 +14,18 @@ export const metadata: Metadata = {
   title: "Uva Wellassa University of Sri Lanka",
   description:
     "Excellence in Education - Uva Wellassa University, a leading national university in Sri Lanka offering innovative programs in science, technology, and management.",
-  generator: "v0.app",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/unilogo.png",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/unilogo.png.png",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
+        url: "/unilogo.png",
         type: "image/svg+xml",
       },
     ],
